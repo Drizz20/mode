@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8px;
+    border-bottom: 1px solid greenyellow;
+}
+nav button{
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: brown;
+}
+nav button:hover{
+    background: yellow;
+}
+
+#hero{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+#hero h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#hero p{
+    max-width: 12px 25px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.hero-btn{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    background: gold;
+}
+
+.dark-mode{
+    background-color: black;
+    color: blueviolet;
+}
+.dark-mode nav{
+    border-color: tomato;
+}
+.dark-mode nav button{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+#enter{
+    text-align: justify;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 17px;
+}
+
+.nav-links a:hover{
+    opacity: 0.6;
+}
